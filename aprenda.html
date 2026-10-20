@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aprenda com Zaga · Mentoria e workshop</title>
+<meta name="description" content="Mentoria e workshop prático de realismo Black &amp; Gray com Anderson Zaga, em Salvador. Deixe seu interesse.">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="icon" href="fotos/marca.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anderson Zaga · Realismo Black &amp; Gray">
+<meta property="og:description" content="Fechamentos e coberturas exclusivas. Studio privativo no ITC Salvador. Solicite seu projeto personalizado.">
+<meta property="og:image" content="fotos/leao-filhotes-colunas-costas.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css?v=20261020132451">
+
+</head>
+<body>
+
+<div id="faixa-demo" class="faixa-demo" hidden>
+  <b>Versão de demonstração.</b> O pedido funciona de verdade aqui, mas fica guardado só neste aparelho até ligarmos o banco de dados.
+</div>
+
+<header class="topo">
+  <div class="wrap topo-in">
+    <a class="marca" href="index.html" aria-label="Anderson Zaga, início">
+      <img src="fotos/marca.svg" alt="" width="40" height="40">
+      <span><b>Zaga</b><small>Realismo Black &amp; Gray</small></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Páginas">
+      <a href="portfolio.html">Portfólio</a>
+      <a href="index.html#fechamentos">Fechamentos</a>
+      <a href="processo.html">Da ideia à pele</a>
+      <a href="aprenda.html" aria-current="page">Aprenda com Zaga</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+    <a class="btn btn-prata mini" href="index.html#agendar">Solicitar projeto</a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="pg-capa">
+  <div class="pg-capa-fundo"><img src="fotos/aguia-leao-costas.jpg" alt="" width="480" height="640"></div>
+  <div class="wrap">
+    <p class="cena"><b>Para tatuadores</b> Mentoria · Workshop prático</p>
+    <h1>Aprenda<br><span class="apagado">com Zaga</span></h1>
+    <p class="sub">Realismo Black &amp; Gray de quem faz fechamento de costas inteiras. Deixe seu interesse e receba as próximas datas e condições pelo WhatsApp.</p>
+    <div class="acoes"><a class="btn btn-prata seta" href="#interesse">Tenho interesse</a></div>
+  </div>
+</section>
+
+<section class="secao" style="padding-top:2rem">
+  <div class="wrap">
+    <div class="formatos" data-revela>
+      <article class="formato">
+        <small>Formato 01</small>
+        <h3>Mentoria</h3>
+        <p>Acompanhamento para quem quer evoluir no realismo e na carreira de tatuador.</p>
+        <ul>
+          <li>Conteúdo e duração combinados direto com o Zaga</li>
+          <li>Para quem já tatua ou está começando</li>
+          <li>Vagas e datas sob consulta</li>
+        </ul>
+      </article>
+      <article class="formato">
+        <small>Formato 02</small>
+        <h3>Workshop prático</h3>
+        <p>Encontro mão na massa: ver o processo do Black &amp; Gray de perto.</p>
+        <ul>
+          <li>Prático, com demonstração</li>
+          <li>Turmas anunciadas no Instagram e para a lista de interesse</li>
+          <li>Datas sob consulta</li>
+        </ul>
+      </article>
+    </div>
+    <p class="nota">Valores, carga horária e programa são informados pelo Zaga na conversa.</p>
+  </div>
+</section>
+
+<section class="secao" id="interesse">
+  <div class="wrap dupla">
+    <div>
+      <p class="cena"><b>Lista de interesse</b> Sem compromisso</p>
+      <h2>Quero <span class="apagado">aprender</span></h2>
+      <p class="sub">Preencha em um minuto. Ao enviar, sua mensagem é copiada e a conversa no WhatsApp do Zaga abre para você colar.</p>
+    </div>
+    <div class="cartao">
+      <form id="form-interesse" novalidate>
+        <div class="campos">
+          <div class="campo">
+            <label for="int-nome">Seu nome</label>
+            <input id="int-nome" type="text" autocomplete="name" placeholder="Como te chamam" required>
+          </div>
+          <div class="campo">
+            <label for="int-insta">Seu Instagram <small>(opcional, para ver seu trabalho)</small></label>
+            <input id="int-insta" type="text" placeholder="@seuperfil">
+          </div>
+          <div>
+            <span class="rotulo-campo">Interesse</span>
+            <div class="chips" id="int-formato" role="group" aria-label="Interesse"><button type="button" class="chip" aria-pressed="true">Mentoria</button><button type="button" class="chip" aria-pressed="false">Workshop prático</button><button type="button" class="chip" aria-pressed="false">Os dois</button></div>
+          </div>
+          <div>
+            <span class="rotulo-campo">Você já tatua?</span>
+            <div class="chips" id="int-nivel" role="group" aria-label="Você já tatua?"><button type="button" class="chip" aria-pressed="false">Ainda não</button><button type="button" class="chip" aria-pressed="false">Comecei agora</button><button type="button" class="chip" aria-pressed="false">Já tatuo profissionalmente</button></div>
+          </div>
+          <div class="campo">
+            <label for="int-objetivo">O que você quer evoluir? <small>(opcional)</small></label>
+            <textarea id="int-objetivo" maxlength="300" placeholder="Ex: sombra no realismo, retrato, composição de fechamento"></textarea>
+          </div>
+        </div>
+        <div id="int-msg" aria-live="polite"></div>
+        <div class="acoes">
+          <button class="btn btn-prata btn-bloco" type="submit">Enviar interesse no WhatsApp</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  function $(s) { return document.querySelector(s); }
+  ['#int-formato', '#int-nivel'].forEach(function (s) {
+    $(s).addEventListener('click', function (ev) {
+      var c = ev.target.closest('.chip'); if (!c) return;
+      Array.prototype.forEach.call(this.querySelectorAll('.chip'), function (x) { x.setAttribute('aria-pressed', x === c ? 'true' : 'false'); });
+      this.classList.remove('falta');
+    });
+  });
+  function escolhido(s) { var c = $(s + ' .chip[aria-pressed="true"]'); return c ? c.textContent : ''; }
+  function aviso(cls, txt) { var m = $('#int-msg'); m.innerHTML = ''; var d = document.createElement('div'); d.className = 'aviso ' + cls; d.textContent = txt; m.appendChild(d); }
+  $('#form-interesse').addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var CFG = window.TV || {};
+    var nome = $('#int-nome').value.trim(), nivel = escolhido('#int-nivel');
+    $('#int-nome').classList.toggle('falta', !nome);
+    $('#int-nivel').classList.toggle('falta', !nivel);
+    if (!nome || !nivel) return aviso('aviso-erro', 'Falta ' + [!nome ? 'o seu nome' : '', !nivel ? 'dizer se você já tatua' : ''].filter(Boolean).join(' e ') + '.');
+    var insta = $('#int-insta').value.trim(), obj = $('#int-objetivo').value.trim();
+    var txt = 'Oi, Zaga! Vim pelo site e tenho interesse em aprender com você.\n\n' +
+      '*Interesse:* ' + escolhido('#int-formato') + '\n' +
+      '*Nome:* ' + nome + '\n' +
+      '*Já tatuo?* ' + nivel + (insta ? '\n*Instagram:* ' + insta : '') + (obj ? '\n*Quero evoluir em:* ' + obj : '');
+    var link = CFG.whatsapp ? 'https://wa.me/' + CFG.whatsapp + '?text=' + encodeURIComponent(txt) : CFG.zapLink;
+    var abre = function () { if (link) window.open(link, '_blank', 'noopener'); };
+    // copia já (ainda dentro do clique) e abre a conversa em seguida, sem esperar: evita bloqueio de pop-up
+    if (!CFG.whatsapp && navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(function () {
+        aviso('aviso-ok', 'Mensagem copiada. Cole na conversa do WhatsApp que abriu.');
+      }, function () { aviso('aviso-ok', 'Copie e cole no WhatsApp: ' + txt); });
+    } else aviso('aviso-ok', CFG.whatsapp ? 'Abrindo o WhatsApp com a sua mensagem.' : 'Copie e cole no WhatsApp: ' + txt);
+    abre();
+  });
+})();
+</script>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <p class="rodape-nome" aria-hidden="true">Anderson Zaga</p>
+    <div class="rodape-in">
+      <div style="max-width:24rem">
+        <a class="marca" href="index.html">
+          <img src="fotos/marca.svg" alt="" width="40" height="40">
+          <span><b>Zaga</b><small>Realismo Black &amp; Gray</small></span>
+        </a>
+        <p class="rodape-assina">Fechamentos e coberturas exclusivas</p>
+        <p>ITC Salvador · Studio privativo. Salvador — BA.</p>
+      </div>
+      <div>
+        <b class="rodape-titulo">Páginas</b>
+        <ul class="rodape-links">
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="portfolio.html#sobre">Sobre o Zaga</a></li>
+          <li><a href="processo.html">Da ideia à pele</a></li>
+          <li><a href="processo.html#cuidados">Cuidados pós-tattoo</a></li>
+          <li><a href="aprenda.html">Aprenda com Zaga</a></li>
+        </ul>
+      </div>
+      <div>
+        <b class="rodape-titulo">Atalhos</b>
+        <ul class="rodape-links">
+          <li><a href="index.html#agendar">Solicitar projeto</a></li>
+          <li><a href="index.html#meu-horario">Consultar ou cancelar</a></li>
+          <li><a href="https://www.instagram.com/zaga.tatuador/" target="_blank" rel="noopener">@zaga.tatuador</a></li>
+          <li><a href="admin.html">Área do artista</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="creditos">
+      <span>© <span id="ano"></span> Anderson Zaga</span>
+      <span>Guardamos seu nome, WhatsApp e a descrição do pedido só para organizar a agenda. Para apagar seus dados, é só pedir no WhatsApp.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="flutua some" href="index.html#agendar">Solicitar projeto</a>
+
+<script src="assets/config.js?v=20261020132451"></script>
+<script src="assets/site.js?v=20261020132451"></script>
+</body>
+</html>
